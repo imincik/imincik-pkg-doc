@@ -31,7 +31,7 @@ Here are some notes for my Ubuntu packaging in ppa:imincik (https://launchpad.ne
 
 * mapserver (GIS b-deps: libgeos, libgdal, libproj, libxml2)
 * qgis
-* osm2pgsql
+* osm2pgsql (GIS b-deps: libgeos, libxml2, libproj)
 * pg-comparator
 
 
