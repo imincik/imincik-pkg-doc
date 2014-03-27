@@ -30,7 +30,7 @@ Here are some notes for my Ubuntu packaging in ppa:imincik (https://launchpad.ne
 * libgdal-grass
 
 * mapserver (GIS b-deps: libgeos, libgdal, libproj, libxml2)
-* qgis
+* qgis (GIS b-dep: grass, libgeos, libgdal, libproj, libspatialite, libspatialindex, libosgearth)
 * osm2pgsql (GIS b-deps: libgeos, libxml2, libproj)
 * pg-comparator
 
