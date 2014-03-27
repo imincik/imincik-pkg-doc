@@ -7,9 +7,10 @@ Build order
 * libxml2
 * libgeotiff
 * libkml
+* readosm
+* freexl
 
 * proj
-* freexl
 * geos
 * spatialite
 * gdal
@@ -24,6 +25,5 @@ Build order
 * libgdal-grass
 * mapserver
 * qgis
-* readosm
 * osm2pgsql
 * pg-comparator
