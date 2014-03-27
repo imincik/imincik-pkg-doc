@@ -1,4 +1,4 @@
-Here are some notes for my packaging in ppa:imincik (https://launchpad.net/~imincik).
+Here are some notes for my Ubuntu packaging in ppa:imincik (https://launchpad.net/~imincik).
 
 Build order
 ===========
