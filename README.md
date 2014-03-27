@@ -38,12 +38,12 @@ Here are some notes for my Ubuntu packaging in ppa:imincik (https://launchpad.ne
 ## QGIS
 Special upload procedure for QGIS:
 
-QGISVERSION=2.2.1
-DATE=$(date +%Y%m%d)
-CHANGESET=$(git rev-parse --short HEAD)
-DEBVERSION=+git$DATE~$CHANGESET~precise
+QGISVERSION=2.2.1  
+DATE=$(date +%Y%m%d)  
+CHANGESET=$(git rev-parse --short HEAD)  
+DEBVERSION=+git$DATE~$CHANGESET~precise  
 
 dch --local "$DEBVERSION" "New custom release."
 
-debuild -S -sa -i -I
+debuild -S -sa -i -I  
 dput ppa:imincik/qgis2.2 ../qgis_${QGISVERSION}${DEBVERSION}1_source.changes
