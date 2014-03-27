@@ -15,7 +15,7 @@ Here are some notes for my Ubuntu packaging in ppa:imincik (https://launchpad.ne
 
 * spatialite (GIS b-deps: libgeos, libproj, libfreexl, libxml2)
 
-* gdal (GIS b-deps: libgeos, libproj, libxml2, libspatialite, libfreexl, libkml, )
+* gdal (GIS b-deps: libgeos, libproj, libxml2, libspatialite, libfreexl, libkml)
 * libgdal-ecw
 * libgdal-mrsid
 
