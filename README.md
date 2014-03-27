@@ -51,10 +51,15 @@ DATE=$(date +%Y%m%d)
 CHANGESET=$(git rev-parse --short HEAD)  
 DEBVERSION=+git$DATE~$CHANGESET~precise  
 
-dch --local "$DEBVERSION" "New release."
+dch --newversion "${QGISVERSION}-1${DEBVERSION}1" "New release."  
+git add debian/changelog  
+git ci -m "Debian changelog update."  
+git push --all  
+git reset --hard  
+git clean --force -dx  
 
 debuild -S -sa -i -I  
-dput ppa:imincik/qgis2.2 ../qgis_${QGISVERSION}${DEBVERSION}1_source.changes
+dput ppa:imincik/gis-dev ../qgis_${QGISVERSION}${DEBVERSION}1_source.changes
 
 ## OSM2PGSQL
 Package is taken from https://launchpad.net/~kakrueger/+archive/openstreetmap/+packages and rebuilded.
