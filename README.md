@@ -10,10 +10,10 @@ Here are some notes for my Ubuntu packaging in ppa:imincik (https://launchpad.ne
 * readosm (GIS b-deps: NO)
 * freexl (GIS b-deps: NO)
 
-* proj
-* geos
+* proj (GIS b-deps: NO)
+* geos (GIS b-deps: NO)
 
-* spatialite
+* spatialite (GIS b-deps: libgeos, libproj, libfreexl, libxml2)
 
 * gdal
 * libgdal-ecw
