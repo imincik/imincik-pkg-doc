@@ -23,7 +23,7 @@ Here are some notes for my Ubuntu packaging in ppa:imincik (https://launchpad.ne
 
 * libgaiagraphics (GIS b-deps: libgeotiff, libproj, libxml2)
 * spatialite-tools (GIS b-deps: libspatialite, libgeos, libproj, libfreexl, libreadosm)
-* spatialite-gui
+* spatialite-gui (GIS b-deps: libspatialite, libgeos, libproj, librasterlite, libgaiagraphics, libfreexl, libxml2)
 
 * grass
 * libgdal-grass
