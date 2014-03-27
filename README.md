@@ -1,7 +1,7 @@
 Here are some notes for my Ubuntu packaging in ppa:imincik (https://launchpad.net/~imincik).
 
-Build order
-===========
+# Build order
+
 * libsvg
 * libsvg-cairo
 * libxml2
