@@ -47,3 +47,6 @@ dch --local "$DEBVERSION" "New custom release."
 
 debuild -S -sa -i -I  
 dput ppa:imincik/qgis2.2 ../qgis_${QGISVERSION}${DEBVERSION}1_source.changes
+
+## OSM2PGSQL
+Package is taken from https://launchpad.net/~kakrueger/+archive/openstreetmap/+packages and rebuilded.
