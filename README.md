@@ -29,7 +29,7 @@ Here are some notes for my Ubuntu packaging in ppa:imincik (https://launchpad.ne
 * grass (GIS b-deps: libgdal, libproj)
 * libgdal-grass
 
-* mapserver
+* mapserver (GIS b-deps: libgeos, libgdal, libproj, libxml2, 
 * qgis
 * osm2pgsql
 * pg-comparator
