@@ -19,7 +19,7 @@ Here are some notes for my Ubuntu packaging in ppa:imincik (https://launchpad.ne
 * libgdal-ecw
 * libgdal-mrsid
 
-* postgis (GIS b-deps: libgeos, libproj, libxml2, libgdal, 
+* postgis (GIS b-deps: libgeos, libproj, libxml2, libgdal)
 
 * libgaiagraphics (GIS b-deps: libgeotiff, libproj, libxml2)
 * librasterlight (GIS b-deps: libgeotiff, libspatialite, libproj)
