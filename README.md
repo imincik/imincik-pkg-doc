@@ -9,20 +9,25 @@ Build order
 * libkml
 * readosm
 * freexl
+* libgaiagraphics
 
 * proj
 * geos
+
 * spatialite
+
 * gdal
 * libgdal-ecw
 * libgdal-mrsid
 
 * postgis
+
 * spatialite-tools
-* libgaiagraphics
 * spatialite-gui
+
 * grass
 * libgdal-grass
+
 * mapserver
 * qgis
 * osm2pgsql
