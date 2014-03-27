@@ -8,7 +8,6 @@ Build order
 * libgeotiff
 * libkml
 
-
 * proj
 * freexl
 * geos
@@ -16,7 +15,6 @@ Build order
 * gdal
 * libgdal-ecw
 * libgdal-mrsid
-
 
 * postgis
 * spatialite-tools
