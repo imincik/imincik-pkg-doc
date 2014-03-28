@@ -35,6 +35,10 @@ Here are some notes for my Ubuntu packaging in ppa:imincik (https://launchpad.ne
 * pg-comparator
 
 
+## SPATIALITE
+* can't build with --enable-lwgeom=yes because of circular dependency between spatialite, postgis and gdal
+
+
 ## QGIS
 Special upload procedure for QGIS:
 
