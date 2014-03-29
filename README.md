@@ -20,6 +20,7 @@ Here are some notes for my Ubuntu packaging in ppa:imincik (https://launchpad.ne
 * libgdal-mrsid
 
 * postgis (GIS b-deps: libgeos, libproj, libxml2, libgdal)
+* spatialite (--enable-lwgeom=yes) (GIS b-deps: + liblwgeom)
 
 * libgaiagraphics (GIS b-deps: libgeotiff, libproj, libxml2)
 * librasterlight (GIS b-deps: libgeotiff, libspatialite, libproj)
@@ -36,7 +37,7 @@ Here are some notes for my Ubuntu packaging in ppa:imincik (https://launchpad.ne
 
 
 ## SPATIALITE
-* can't build with --enable-lwgeom=yes because of circular dependency between spatialite, postgis and gdal
+* can't build with --enable-lwgeom=yes for the first time, because of circular dependency between spatialite, postgis and gdal. First build without lwgeom and after building postgis, build again with lwgeom.
 
 
 ## QGIS
