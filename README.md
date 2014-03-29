@@ -38,7 +38,7 @@ Here are some notes for my Ubuntu packaging in ppa:imincik (https://launchpad.ne
 
 ## SPATIALITE
 * can't build with --enable-lwgeom=yes for the first time, because of circular dependency between spatialite, postgis and gdal. First build without lwgeom and after building postgis, build again with lwgeom.
-* in order to use spatialite 4 from Python, sqlite 3 dynamic module loading must be used. sqlite3 package must be build with --enable-dynamic-extensions and python-pysqlite2 without 'define=SQLITE_OMIT_LOAD_EXTENSION'
+* pyspatialite language binding only works with SpatialLite 3.0.1 (the last version before SpatiaLite amalgamation builds were deprecated). In order to use spatialite 4 from Python, sqlite 3 dynamic module loading must be used. sqlite3 package must be build with --enable-dynamic-extensions and python-pysqlite2 without 'define=SQLITE_OMIT_LOAD_EXTENSION'
 * example Python code:
 
 ```
