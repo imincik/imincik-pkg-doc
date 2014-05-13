@@ -64,7 +64,7 @@ git merge upstream/release-2_2
 git co imincik/precise/release-2_2  
 git merge release-2_2  
 
-QGISVERSION=2.2.1  
+QGISVERSION=2.2.99
 
 DATE=$(date +%Y%m%d)  
 CHANGESET=$(git rev-parse --short HEAD)  
