@@ -62,7 +62,9 @@ git fetch upstream
 git log ..upstream/release-2_2  
 git merge upstream/release-2_2  
 git co imincik/precise/release-2_2  
-git merge release-2_2  
+git merge release-2_2
+
+optionaly merge other custom patches to imincik/precise/release-2_2 branch
 
 QGISVERSION=2.2.99
 
