@@ -86,9 +86,9 @@ dput ppa:imincik/gis-dev ../qgis_${QGISVERSION}-1${DEBVERSION}1_source.changes
 Package is taken from https://launchpad.net/~kakrueger/+archive/openstreetmap/+packages and rebuilded.
 
 ## LIBGDAL-GRASS
-cd pkg-gdal
-./configure
-cd frmts/grass
-make dist
+cd pkg-gdal  
+./configure  
+cd frmts/grass  
+make dist  
 
 Above command will create  .tar.gz file. Rename it with the proper .orig.tar.gz name for the package (libgdal-grass.orig.tar.gz) and continue as normal. 
